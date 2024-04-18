@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'user',
     'ad_infomation',
-
 ]
 
 MIDDLEWARE = [
@@ -80,7 +79,7 @@ WSGI_APPLICATION = 'classicfied_ads_system.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ads_system',
+        'NAME': 'classified_art_system',
         'USER': 'root',
         'PASSWORD': 'Adewuyi@2211',
         'HOST': 'localhost',
